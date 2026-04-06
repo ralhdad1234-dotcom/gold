@@ -10,7 +10,7 @@ CHAT_ID = os.getenv("-1003594557268")
 if not TOKEN or not CHAT_ID:
     raise Exception("❌ TOKEN أو CHAT_ID غير موجود")
 
-bot = Bot(token=TOKEN)  # ✅ متوافق مع python-telegram-bot==20.3
+bot = Bot(token=8624246936:AAGIB6_YZCmcvw8Bt6Q_D75sd4yRYbAtcwM)  # ✅ متوافق مع python-telegram-bot==20.3
 
 def get_gold_price():
     try:
